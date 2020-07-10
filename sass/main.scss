@@ -1,0 +1,40 @@
+/*
+COLORS:
+
+Dark red: #ea907a rgba(234, 144, 122, 0.9)
+Medium red: #fbc687 rgba(251, 198, 135, 0.4)
+pink: #f78259
+Light green: #def4f0
+Black: #2f2519
+yellow: #f6f578
+purple:#efa8e4 rgba(239, 168, 228, 1)
+light-purple: #f8e1f4 rgba(248, 225, 244, 1)
+green: #5fdde5 rgba(95, 221, 229, 1)
+rgba(126, 213, 111, 1)
+rgba(244, 224, 77, 0.8) 
+*/
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/bg-video";
+
+
+@import "layout/grid";
+@import "layout/header";
+
+@import "pages/home";
+
+
+  
+
+  
+
+  

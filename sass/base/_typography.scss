@@ -1,0 +1,73 @@
+body {
+    //font-family: 
+    //font-family: 'Merienda One', cursive;
+    font-family: $heading;
+    //font-size: 16px;
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+  }
+
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        letter-spacing: 1.8rem;
+      
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+    /*
+  animation-delay: 3s;
+  animation-iteration-count: 3;
+    */        
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        letter-spacing: 1rem;
+      
+        animation: moveInRight 1s ease-out;
+    }
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary, $color-primary-light);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .2s;
+
+    &:hover {
+      transform: skewY(2deg) skewX(15deg) scale(1.1);
+      text-shadow: .5rem 1rem 2rem ragba($color-black, .2);
+    }
+  }
+
+  .section-about-sub--text,
+  .cakes,
+  .story,
+  footer {
+    font-family: $primary-font;
+    font-size: 1.5rem;
+  }
+
+  .cake {
+    text-align: center;
+
+    h3,
+    p {
+      margin: .5rem 0;
+    }
+  }
+
+  
