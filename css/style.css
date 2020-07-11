@@ -118,7 +118,7 @@ body {
   font-size: 3rem;
   text-transform: uppercase;
   display: inline-block;
-  background-image: linear-gradient(to right, #e8505b, #fcf876);
+  background-image: linear-gradient(to right, #e8505b, #ffcb74);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -128,7 +128,7 @@ body {
       font-size: 2rem; } }
   @media only screen and (max-width: 37.5em) {
     .heading-secondary {
-      font-size: 1.8rem; } }
+      padding: 1rem; } }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem ragba(#000, 0.2); }
