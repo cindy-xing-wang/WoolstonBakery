@@ -80,9 +80,15 @@
       ,url(../img/landingPage.jpeg);
       background-size: cover;
       transform: skewY(-7deg);
+      @include respond(phone) { // width < ?
+        transform: skewY(0deg);
+    }
 
       & >*{
         transform: skewY(7deg);
+        @include respond(phone) { // width < ?
+            transform: skewY(0deg);
+        }
       }
 
       &__feature {
@@ -156,8 +162,8 @@
     }
 
     &__shape {
-        width: 15.2rem;
-        height: 15.2rem;
+        width: 12rem;
+        height: 12rem;
         float: left;
 
         @include respond(phone) {

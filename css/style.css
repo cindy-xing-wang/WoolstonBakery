@@ -118,7 +118,7 @@ body {
   font-size: 3rem;
   text-transform: uppercase;
   display: inline-block;
-  background-image: linear-gradient(to right, #ea907a, #f6f578);
+  background-image: linear-gradient(to right, #e8505b, #fcf876);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -216,7 +216,7 @@ footer {
 
 .btn--white {
   background-color: #fff;
-  color: red; }
+  color: #e8505b; }
 
 .btn:hover {
   transform: translateY(-3px);
@@ -257,7 +257,7 @@ footer {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right, rgba(246, 245, 120, 0.9), rgba(234, 144, 122, 0.9)), url(../img/unicorLanding.jpg);
+  background-image: linear-gradient(to right, rgba(252, 248, 118, 0.9), rgba(232, 80, 91, 0.9)), url(../img/unicorLanding.jpg);
   background-size: cover;
   background-position: bottom;
   position: relative; }
@@ -316,7 +316,7 @@ footer {
 
 .cakes {
   padding: 20rem 4rem;
-  background-image: linear-gradient(to right, #f6f578, rgba(234, 144, 122, 0.8)), url(../img/landingPage.jpeg);
+  background-image: linear-gradient(to right, #fcf876, rgba(232, 80, 91, 0.8)), url(../img/landingPage.jpeg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -20vh; }
@@ -326,8 +326,14 @@ footer {
   @media only screen and (max-width: 37.5em) {
     .cakes {
       padding: 10rem 2rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .cakes {
+      transform: skewY(0deg); } }
   .cakes > * {
     transform: skewY(7deg); }
+    @media only screen and (max-width: 37.5em) {
+      .cakes > * {
+        transform: skewY(0deg); } }
   .cakes__feature {
     display: grid;
     grid-column: center-start / center-end;
@@ -375,8 +381,8 @@ footer {
     .story {
       transform: skewX(0deg); } }
   .story__shape {
-    width: 15.2rem;
-    height: 15.2rem;
+    width: 12rem;
+    height: 12rem;
     float: left;
     transform: skewX(-12deg);
     -webkit-shape-outside: circle(50% at 50% 50%);
